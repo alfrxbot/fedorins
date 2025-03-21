@@ -26,7 +26,7 @@
 title: Семья Федориных
 email: your-email@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Это расследование противмошенников. Edit by _config.yml. 
+  Это расследование против мошенников. Edit by _config.yml. 
   Она появится в документе head meta (для результатов поиска Google) и в feed.xml описание сайта 
 baseurl: "/fedorins"                       # the subpath of your site, e.g. /blog
 url: ""                           # the base hostname & protocol for your site, e.g. http://example.com
