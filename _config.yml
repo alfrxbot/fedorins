@@ -1,0 +1,59 @@
+# Welcome to Jekyll!
+#
+#
+# Этот конфигурационный файл, значения, которые вы должны установить один раз и 
+# редко редактировать. Если вы обнаружите, что редактируете этот файл очень часто, 
+# рассмотрите возможность использования 
+# файлов данных Jekyll функция для данных (Jekyll's data files feature), 
+# которые вам необходимо часто обновлять.
+#
+# По техническим причинам этот файл не загружается автоматически при использовании
+# "bundle exec jekyll serve". 
+# Если вы измените этот файл, пожалуйста, перезапустите серверный процесс.
+#
+# Если вам нужна помощь с синтаксисом YAML, вот несколько кратких рекомендаций для вас:
+#
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Настройки сайта
+#
+# Если вы заглянете в HTML-файлы,
+#, вы увидите, что к ним можно получить доступ через {{ site.title }}, {{ site.email }} и так далее.
+# Вы можете создать любые пользовательские переменные, которые вам нравятся, и они будут доступны
+# в шаблонах через {{ site.myvariable }}.
+
+title: Семья Федориных
+email: your-email@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Это расследование противмошенников. Edit by _config.yml. 
+  Она появится в документе head meta (для результатов поиска Google) и в feed.xml описание сайта 
+baseurl: ""                       # the subpath of your site, e.g. /blog
+url: ""                           # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Исключить из обработки.
+
+# По умолчанию следующие элементы обрабатываться не будут.
+# Любой элемент, указанный в разделе `exclude:`, 
+# будет автоматически добавлен во внутренний "default list"..
+#
+# Исключенные элементы можно обработать, 
+# явно указав пути к каталогам или их записям в списке `include:`.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
